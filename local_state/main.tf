@@ -1,16 +1,3 @@
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "~> 3.0"  # Use the latest version
-    }
-  }
-}
-
-# Configure the Microsoft Azure provider
-provider "azurerm" {
-  features {}
-}
 
 # Create a Resource Group if it doesn’t exist
 resource "azurerm_resource_group" "tfexample" {
