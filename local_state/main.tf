@@ -3,8 +3,6 @@ provider "azurerm" {
   features {}
 }
 
-# Add your subscription ID here
-  subscription_id = "aeee6685-fdd2-4723-942b-30faf6b496b7"
 
 # Create a Resource Group if it doesn’t exist
 resource "azurerm_resource_group" "tfexample" {
